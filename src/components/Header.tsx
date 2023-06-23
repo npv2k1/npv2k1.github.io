@@ -1,4 +1,4 @@
-function Header({ coverImg, profileImg, displayName, description }) {
+function Header({ coverImg, profileImg, displayName, description }: any) {
   return (
     <div className="flex justify-center">
       <div className="w-full relative md:max-w-6xl flex-1">
