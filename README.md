@@ -1,2 +1,11 @@
 # npv2k1.github.io
-my github page
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
