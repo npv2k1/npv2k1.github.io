@@ -8,7 +8,7 @@ function Sidebar() {
         <h1 className="text-2xl font-bold text-gray-600">About Me</h1>
         <div className="mt-2">
           <p className="text-gray-700">
-            Hello! I'm Nguyen, I'm 20 years old, and I love to code. I'm pursuing a career as a
+            Hello! I'm Nguyen, I'm 23 years old, and I love to code. I'm pursuing a career as a
             software developer. I aim to develop software that makes life smarter and easier. I also
             enjoy science, physics, and electronics.
           </p>

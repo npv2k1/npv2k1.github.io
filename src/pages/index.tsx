@@ -1,18 +1,12 @@
 import Header from '@/components/Header';
 import Posts from '@/components/Posts';
 import Sidebar from '@/components/Sidebar';
+import { profile } from '@/mocks';
 export default function Home() {
-  const displayName = 'Nguyen Pham';
-  const description = '@npv2k1';
-  const coverImg = 'img/background.png';
-  const profileImg = 'img/avatar.jpg';
+  
   return (
     <div className="flex flex-col">
-      <Header
-        displayName={displayName}
-        coverImg={coverImg}
-        profileImg={profileImg}
-        description={description}
+      <Header profile={profile}
       />
 
       <div className="h-full bg-[#F0F2F5] pb-96">

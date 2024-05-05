@@ -10,5 +10,5 @@ module.exports = {
   printWidth: 100,
   proseWrap: 'never',
   endOfLine: 'lf',
-  plugins: [require('prettier-plugin-tailwindcss')],
+  // plugins: [require('prettier-plugin-tailwindcss')],
 };
