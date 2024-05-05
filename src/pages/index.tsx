@@ -14,8 +14,9 @@ export default function Home() {
         profileImg={profileImg}
         description={description}
       />
+
       <div className="h-full bg-[#F0F2F5] pb-96">
-        <div className="mx-auto flex max-w-6xl flex-col justify-center  space-x-2 md:flex-row">
+        <div className="mx-auto flex max-w-6xl flex-col justify-center space-x-2 md:flex-row">
           <Sidebar />
           <Posts />
         </div>
